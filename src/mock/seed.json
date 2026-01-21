@@ -1,0 +1,98 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "roll_no": "S-001",
+      "first_name": "Aarav",
+      "last_name": "Singh",
+      "dob": "2010-01-15",
+      "gender": "M"
+    },
+    {
+      "id": 2,
+      "roll_no": "S-002",
+      "first_name": "Dia",
+      "last_name": "Roy",
+      "dob": "2011-05-20",
+      "gender": "F"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "first_name": "Ritu",
+      "last_name": "Sen",
+      "email": "ritu.sen@school.edu",
+      "department": "Math"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Grade 6",
+      "section": "A",
+      "academic_year": "2025-26"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Mathematics",
+      "code": "MTH",
+      "description": "Core math"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "class_id": 1,
+      "academic_year": "2025-26"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "class_id": 1,
+      "date": "2025-07-01",
+      "status": "Present"
+    }
+  ],
+  "exams": [
+    {
+      "id": 1,
+      "name": "Midterm",
+      "class_id": 1,
+      "term": "Term 1",
+      "exam_date": "2025-09-15"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "exam_id": 1,
+      "student_id": 1,
+      "subject_id": 1,
+      "marks_obtained": 88,
+      "grade": "A"
+    }
+  ],
+  "fees": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "fee_type": "Tuition",
+      "amount": 15000,
+      "due_date": "2025-08-01",
+      "paid_amount": 5000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "role": "admin"
+    }
+  ]
+}

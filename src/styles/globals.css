@@ -1,0 +1,17 @@
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; background: #f5f6fa; }
+.app-container { display: flex; flex-direction: column; height: 100vh; }
+.navbar { display:flex; align-items:center; gap:16px; padding:10px 16px; background:#0f62fe; color:white; }
+.navbar a { color: #d0e2ff; text-decoration: none; }
+.layout { display:flex; flex:1; }
+.sidebar { width: 220px; background:white; border-right:1px solid #e0e0e0; padding:12px; display:flex; flex-direction:column; }
+.sidebar a { padding:8px 10px; border-radius:6px; color:#222; text-decoration:none; }
+.sidebar a.active { background:#e0f2ff; color:#0f62fe; }
+.content { flex:1; padding:16px; overflow:auto; }
+.datatable { width:100%; border-collapse: collapse; background:white; }
+.datatable th, .datatable td { border:1px solid #e0e0e0; padding:8px; text-align:left; }
+.field { display:flex; flex-direction:column; gap:6px; margin-bottom:10px; }
+.spinner { padding:16px; }
+.card { background:white; border:1px solid #eee; border-radius:8px; padding:16px; margin-bottom:16px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px; }
